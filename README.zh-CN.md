@@ -1,20 +1,21 @@
 # panel-lang — 语言文件集合 🇬🇧🇹🇼🇨🇳🇷🇺
 
-此仓库包含 Pterodactyl 面板的语言（翻译）文件。下面列出了可用语言，您可以点击链接下载相应语言的 zip 文件。
+此仓库收集 Pterodactyl 面板的语言（翻译）文件。以下为提供的语言，您可以点击链接以 ZIP 格式下载各语言包。
 
-> ⚠️ 注意：许多翻译为机器生成，可能需要人工校对以调整术语与语气。欢迎提交 PR 协助改进。
+> ⚠️ 注意：许多翻译为机器生成，可能需要人工审核以调整语气、用词或修正误译。如能协助，请修改对应语言文件夹并提交 PR。
 
 ---
 
-## 可用语言
+## 支持的语言
 
 | 语言 | 代码 | 状态 | 下载 |
 |---|---:|---|---|
-| English | `en` | 源文件（英语） | [下载 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/en.zip) ✅ |
-| 繁体中文（台湾） | `zh-TW` | 初次翻译（机器）— 简易 QA 已完成 | [下载 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-TW.zip) ✅ |
-| 简体中文（中国） | `zh-CN` | 由 `zh-TW` 自动简化 — 需审校 | [下载 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-CN.zip) ✅ |
-| Русский (Russian) | `ru` | 初次翻译（机器）— 简易校正已完成 | [下载 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ru.zip) ✅ |
+| English | `en` | 源（英语） | [下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/en.zip) ✅ |
+| 日本語 | `ja` | 初次翻译（机器 → 简易校正）— 需复审 | [下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ja.zip) ✅ |
+| 繁體中文（臺灣） | `zh-TW` | 初次翻譯（機器 → 简易 QA） | [下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-TW.zip) ✅ |
+| 简体中文（中国） | `zh-CN` | 自 `zh-TW` 自动简体化 — 需审校 | [下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-CN.zip) ✅ |
+| 俄语 | `ru` | 初次翻译（机器 → 简易校正）— 需复审 | [下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ru.zip) ✅ |
 
 ---
 
-本文件为机器翻译版本，欢迎提出修改建议或直接提交 PR。
+本文件为机器生成的初稿，欢迎提交修改建议或直接发起 PR。

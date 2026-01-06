@@ -1,8 +1,8 @@
 # panel-lang — Locales Collection 🇬🇧🇹🇼🇨🇳🇷🇺
 
-This repository contains locale (translation) files for the Pterodactyl panel. The following languages are available. Each language can be downloaded as a zip file from the Links below.
+This repository collects locale (translation) files for the Pterodactyl panel. The following languages are provided. Each language can be downloaded as a zip file by clicking the link.
 
-> ⚠️ NOTE: Many translations in this repository were machine-generated. They may require human proofreading for tone, terminology, and context. If you can help, please edit the relevant language folder and open a PR.
+> ⚠️ NOTE: Many translations were machine-generated. They need human review for tone, terminology, and mistranslations. If you can help, edit the corresponding language folder and open a PR.
 
 ---
 
@@ -10,26 +10,20 @@ This repository contains locale (translation) files for the Pterodactyl panel. T
 
 | Language | Code | Status | Download |
 |---|---:|---|---|
-| English | `en` | Source (English) | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/en.zip) ✅ |
-| Japanese | `ja` | Original Japanese files | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ja.zip) ✅ |
-| Traditional Chinese (Taiwan) | `zh-TW` | Initial translation (machine) — Quick QA done | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-TW.zip) ✅ |
-| Simplified Chinese (China) | `zh-CN` | Converted from `zh-TW` (automated) — Needs review | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-CN.zip) ✅ |
-| Russian | `ru` | Initial translation (machine) — Quick QA done | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ru.zip) ✅ |
+| English | `en` | Source (English) | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/en.zip) ✅ |
+| Japanese | `ja` | Initial translation (machine → light proofreading) — Needs review | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ja.zip) ✅ |
+| Traditional Chinese (Taiwan) | `zh-TW` | Initial translation (machine → quick QA) | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-TW.zip) ✅ |
+| Simplified Chinese (China) | `zh-CN` | `zh-TW` converted to simplified (automated) — Needs review | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-CN.zip) ✅ |
+| Russian | `ru` | Initial translation (machine → light proofreading) — Needs review | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ru.zip) ✅ |
 
 ---
 
-## How to review
+## Quick review steps
 
-1. Download the zip and inspect strings in a code editor or test within a running Panel instance.  
-2. If corrections are needed, edit the files in the language folder and open a PR, or comment on the PR with suggestions.  
-3. For broad terminology changes, consider proposing a `GLOSSARY.md` to standardize translations across languages.
+1. Download the zip and check strings in context.  
+2. If you find issues, edit the files in the language folder and open a PR.  
+3. For terminology consistency, propose a `GLOSSARY.md`.
 
----
+Please keep placeholders and HTML tags unchanged. After edits, validate PHP syntax with `php -l`.
 
-## Developer notes 🔧
-- Keep placeholders (`:name`, `:id`) and HTML tags untouched in translations.  
-- Run `php -l <file>` after changes to ensure valid PHP syntax.
-
----
-
-If you prefer, I can perform the proofreading and apply fixes directly — tell me which language to prioritize.
+If you want, I can proofread and apply fixes — which language should I prioritize?
