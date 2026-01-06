@@ -1,59 +1,59 @@
 <?php
 
 return [
-    'daemon_connection_failed' => 'There was an exception while attempting to communicate with the daemon resulting in a HTTP/:code response code. This exception has been logged.',
+    'daemon_connection_failed' => '在尝试与 daemon 通讯时发生例外并回传 HTTP/:code，该例外已被记录。',
     'node' => [
-        'servers_attached' => 'A node must have no servers linked to it in order to be deleted.',
-        'daemon_off_config_updated' => 'The daemon configuration <strong>has been updated</strong>, however there was an error encountered while attempting to automatically update the configuration file on the Daemon. You will need to manually update the configuration file (config.yml) for the daemon to apply these changes.',
+        'servers_attached' => '节点必须没有连结任何伺服器才能被删除。',
+        'daemon_off_config_updated' => 'daemon 的设定 <strong>已更新</strong>，但在尝试自动更新 daemon 上的设定档时发生错误。您需手动更新 daemon 的设定档 (config.yml) 以套用这些变更。',
     ],
     'allocations' => [
-        'server_using' => 'A server is currently assigned to this allocation. An allocation can only be deleted if no server is currently assigned.',
-        'too_many_ports' => 'Adding more than 1000 ports in a single range at once is not supported.',
-        'invalid_mapping' => 'The mapping provided for :port was invalid and could not be processed.',
-        'cidr_out_of_range' => 'CIDR notation only allows masks between /25 and /32.',
-        'port_out_of_range' => 'Ports in an allocation must be greater than 1024 and less than or equal to 65535.',
+        'server_using' => '此配置目前已被伺服器使用。只有在没有伺服器指派时才可删除配置。',
+        'too_many_ports' => '一次新增超过 1000 个连接埠的范围并不受支援。',
+        'invalid_mapping' => '提供的 :port 对应无效，无法处理。',
+        'cidr_out_of_range' => 'CIDR 记法仅允许 /25 到 /32 之间的遮罩。',
+        'port_out_of_range' => '配置中的连接埠须大于 1024 且小于或等于 65535。',
     ],
     'nest' => [
-        'delete_has_servers' => 'A Nest with active servers attached to it cannot be deleted from the Panel.',
+        'delete_has_servers' => '具有活动伺服器的 Nest 无法从面板删除。',
         'egg' => [
-            'delete_has_servers' => 'An Egg with active servers attached to it cannot be deleted from the Panel.',
-            'invalid_copy_id' => 'The Egg selected for copying a script from either does not exist, or is copying a script itself.',
-            'must_be_child' => 'The "Copy Settings From" directive for this Egg must be a child option for the selected Nest.',
-            'has_children' => 'This Egg is a parent to one or more other Eggs. Please delete those Eggs before deleting this Egg.',
+            'delete_has_servers' => '具有活动伺服器的 Egg 无法从面板删除。',
+            'invalid_copy_id' => '选择复制脚本来源的 Egg 要么不存在，要么本身就是复制来源。',
+            'must_be_child' => '此 Egg 的「从哪里复制设定」选项必须是所选 Nest 的子项。',
+            'has_children' => '此 Egg 有一或多个子 Egg，请先删除那些 Egg。',
         ],
         'variables' => [
-            'env_not_unique' => 'The environment variable :name must be unique to this Egg.',
-            'reserved_name' => 'The environment variable :name is protected and cannot be assigned to a variable.',
-            'bad_validation_rule' => 'The validation rule ":rule" is not a valid rule for this application.',
+            'env_not_unique' => '环境变数 :name 必须在此 Egg 中唯一。',
+            'reserved_name' => '环境变数 :name 为保留名称，无法指定。',
+            'bad_validation_rule' => '验证规则 ":rule" 并非此应用程式的有效规则。',
         ],
         'importer' => [
-            'json_error' => 'There was an error while attempting to parse the JSON file: :error.',
-            'file_error' => 'The JSON file provided was not valid.',
-            'invalid_json_provided' => 'The JSON file provided is not in a format that can be recognized.',
+            'json_error' => '解析 JSON 档案时发生错误：:error。',
+            'file_error' => '所提供的 JSON 档案无效。',
+            'invalid_json_provided' => '提供的 JSON 档案格式无法识别。',
         ],
     ],
     'subusers' => [
-        'editing_self' => 'Editing your own subuser account is not permitted.',
-        'user_is_owner' => 'You cannot add the server owner as a subuser for this server.',
-        'subuser_exists' => 'A user with that email address is already assigned as a subuser for this server.',
+        'editing_self' => '不允许编辑您自己的子使用者帐号。',
+        'user_is_owner' => '您不能将伺服器拥有者新增为此伺服器的子使用者。',
+        'subuser_exists' => '具有该电子邮件地址的使用者已被指派为此伺服器的子使用者。',
     ],
     'databases' => [
-        'delete_has_databases' => 'Cannot delete a database host server that has active databases linked to it.',
+        'delete_has_databases' => '无法删除拥有活动资料库的资料库主机伺服器。',
     ],
     'tasks' => [
-        'chain_interval_too_long' => 'The maximum interval time for a chained task is 15 minutes.',
+        'chain_interval_too_long' => '串接任务的最大间隔时间为 15 分钟。',
     ],
     'locations' => [
-        'has_nodes' => 'Cannot delete a location that has active nodes attached to it.',
+        'has_nodes' => '无法删除有活动节点的地点。',
     ],
     'users' => [
-        'node_revocation_failed' => 'Failed to revoke keys on <a href=":link">Node #:node</a>. :error',
+        'node_revocation_failed' => '无法撤销 <a href=":link">节点 #:node</a> 的金钥。:error',
     ],
     'deployment' => [
-        'no_viable_nodes' => 'No nodes satisfying the requirements specified for automatic deployment could be found.',
-        'no_viable_allocations' => 'No allocations satisfying the requirements for automatic deployment were found.',
+        'no_viable_nodes' => '找不到符合自动部署要求的节点。',
+        'no_viable_allocations' => '找不到符合自动部署要求的配置。',
     ],
     'api' => [
-        'resource_not_found' => 'The requested resource does not exist on this server.',
+        'resource_not_found' => '所请求的资源在此伺服器上不存在。',
     ],
 ];

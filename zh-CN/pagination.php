@@ -3,15 +3,13 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Pagination Language Lines
+    | Pagination 语系文字
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used by the paginator library to build
-    | the simple pagination links. You are free to change them to anything
-    | you want to customize your views to better match your application.
+    | 以下语系文字用于分页元件。您可以依需求变更它们以符合您的应用程式。
     |
     */
 
-    'previous' => '&laquo; Previous',
-    'next' => 'Next &raquo;',
+    'previous' => '&laquo; 上一页',
+    'next' => '下一页 &raquo;',
 ];

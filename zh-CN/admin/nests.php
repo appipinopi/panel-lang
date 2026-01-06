@@ -2,25 +2,25 @@
 
 return [
     'notices' => [
-        'created' => 'A new nest, :name, has been successfully created.',
-        'deleted' => 'Successfully deleted the requested nest from the Panel.',
-        'updated' => 'Successfully updated the nest configuration options.',
+        'created' => '已成功建立新的 Nest：:name。',
+        'deleted' => '已从面板成功删除所选的 Nest。',
+        'updated' => '已成功更新 Nest 的设定选项。',
     ],
     'eggs' => [
         'notices' => [
-            'imported' => 'Successfully imported this Egg and its associated variables.',
-            'updated_via_import' => 'This Egg has been updated using the file provided.',
-            'deleted' => 'Successfully deleted the requested egg from the Panel.',
-            'updated' => 'Egg configuration has been updated successfully.',
-            'script_updated' => 'Egg install script has been updated and will run whenever servers are installed.',
-            'egg_created' => 'A new egg was laid successfully. You will need to restart any running daemons to apply this new egg.',
+            'imported' => '已成功汇入此 Egg 与其相关变数。',
+            'updated_via_import' => '此 Egg 已使用提供的档案更新。',
+            'deleted' => '已成功从面板删除所选的 Egg。',
+            'updated' => 'Egg 的设定已成功更新。',
+            'script_updated' => 'Egg 的安装脚本已更新，伺服器安装时将会执行。',
+            'egg_created' => '已成功建立新的 Egg。您需要重新启动正在执行的 daemon 以套用此 Egg。',
         ],
     ],
     'variables' => [
         'notices' => [
-            'variable_deleted' => 'The variable ":variable" has been deleted and will no longer be available to servers once rebuilt.',
-            'variable_updated' => 'The variable ":variable" has been updated. You will need to rebuild any servers using this variable in order to apply changes.',
-            'variable_created' => 'New variable has successfully been created and assigned to this egg.',
+            'variable_deleted' => '变数 ":variable" 已被删除，重建后将不再提供给伺服器使用。',
+            'variable_updated' => '变数 ":variable" 已更新。请重建使用该变数的伺服器以套用变更。',
+            'variable_created' => '新的变数已成功建立并指派给此 Egg。',
         ],
     ],
 ];
