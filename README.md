@@ -12,10 +12,10 @@
 
 | Lang | Code | Download |
 |---|---:|---|
-| English | `en` | [Download (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/en.zip) |
-| 日本語 | `ja` | [Download (ZIP) / ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ja.zip) |
-| 繁體中文（台湾） | `zh-TW` | [Download (ZIP) / 下載 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-TW.zip) |
-| 简体中文（中国） | `zh-CN` | [Download (ZIP) / 下载 (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-CN.zip) |
-| Русский (Russian) | `ru` | [Download (ZIP) / Скачать (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ru.zip) |
+| English | `en` | [Download (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/en.zip) |
+| 日本語 | `ja` | [Download (ZIP) / ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ja.zip) |
+| 繁體中文（台湾） | `zh-TW` | [Download (ZIP) / 下載 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-TW.zip) |
+| 简体中文（中国） | `zh-CN` | [Download (ZIP) / 下载 (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-CN.zip) |
+| Русский (Russian) | `ru` | [Download (ZIP) / Скачать (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ru.zip) |
 
 ---
