@@ -10,11 +10,11 @@
 
 | 言語 | コード | 状態 | ダウンロード |
 |---|---:|---|---|
-| English | `en` | 原本（英語） | [ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/en.zip) ✅ |
-| 日本語 | `ja` |初回翻訳（機械→簡易校正済み） — 要レビュー | [ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ja.zip) ✅ |
-| 繁體中文（台湾） | `zh-TW` | 初回翻訳（機械→簡易 QA） | [ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-TW.zip) ✅ |
-| 简体中文（中国） | `zh-CN` | `zh-TW` を簡体化（自動） — 要レビュー | [ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/zh-CN.zip) ✅ |
-| Русский (Russian) | `ru` | 初回翻訳（機械→簡易校正済み） — 要レビュー | [ダウンロード (ZIP)](https://raw.githubusercontent.com/appipinopi/panel-lang/add-locales-zh-tw-zh-cn-ru/dist/ru.zip) ✅ |
+| 英語 | `en` | 原本（英語） | [ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/en.zip) ✅ |
+| 日本語 | `ja` |初回翻訳（機械→簡易校正済み） — 要レビュー | [ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ja.zip) ✅ |
+| 中国語（繁體） | `zh-TW` | 初回翻訳（機械→簡易 QA） | [ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-TW.zip) ✅ |
+| 中国語（简体） | `zh-CN` | `zh-TW` を簡体化（自動） — 要レビュー | [ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/zh-CN.zip) ✅ |
+| ロシア語 | `ru` | 初回翻訳（機械→簡易校正済み） — 要レビュー | [ダウンロード (ZIP)](https://github.com/appipinopi/panel-lang/raw/refs/heads/main/dist/ru.zip) ✅ |
 
 ---
 
