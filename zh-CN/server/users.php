@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => '允许存取此伺服器的 websocket。',
+        'control_console' => '允许使用者向伺服器控制台传送资料。',
+        'control_start' => '允许使用者启动伺服器实例。',
+        'control_stop' => '允许使用者停止伺服器实例。',
+        'control_restart' => '允许使用者重新启动伺服器实例。',
+        'control_kill' => '允许使用者终止伺服器实例。',
+        'user_create' => '允许使用者为伺服器建立新使用者帐号。',
+        'user_read' => '允许使用者检视与此伺服器相关的使用者。',
+        'user_update' => '允许使用者修改与此伺服器相关的其他使用者。',
+        'user_delete' => '允许使用者删除与此伺服器相关的其他使用者。',
+        'file_create' => '允许使用者建立新档案与目录。',
+        'file_read' => '允许使用者检视与此伺服器实例相关的档案与资料夹，并检视其内容。',
+        'file_update' => '允许使用者更新与伺服器相关的档案与资料夹。',
+        'file_delete' => '允许使用者删除档案与目录。',
+        'file_archive' => '允许使用者建立档案压缩与解压缩现有压缩档。',
+        'file_sftp' => '允许使用者使用 SFTP 用户端执行上述档案操作。',
+        'allocation_read' => '允许存取伺服器配置管理页面。',
+        'allocation_update' => '允许使用者修改伺服器的配置。',
+        'database_create' => '允许使用者为伺服器建立新资料库。',
+        'database_read' => '允许使用者检视伺服器资料库。',
+        'database_update' => '允许使用者修改资料库。如未同时拥有「检视密码」权限，将无法修改密码。',
+        'database_delete' => '允许使用者删除资料库实例。',
+        'database_view_password' => '允许使用者在系统中检视资料库密码。',
+        'schedule_create' => '允许使用者为伺服器建立新排程。',
+        'schedule_read' => '允许使用者检视伺服器的排程。',
+        'schedule_update' => '允许使用者修改现有的伺服器排程。',
+        'schedule_delete' => '允许使用者删除伺服器的排程。',
+    ],
+];
