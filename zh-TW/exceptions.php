@@ -47,7 +47,7 @@ return [
         'has_nodes' => '無法刪除有活動節點的地點。',
     ],
     'users' => [
-        'node_revocation_failed' => '無法撤銷 <a href=":link">節點 #":node" 的金鑰。:error',
+        'node_revocation_failed' => '無法撤銷 <a href=":link">節點 #:node</a> 的金鑰。:error',
     ],
     'deployment' => [
         'no_viable_nodes' => '找不到符合自動部署要求的節點。',
