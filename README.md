@@ -1,3 +1,4 @@
+V1.11.0
 # panel-lang — ロケール集 / Locales collection 🇬🇧🇯🇵🇹🇼🇨🇳🇷🇺
 
 - [English README](README.en.md)
